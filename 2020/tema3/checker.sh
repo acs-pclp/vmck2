@@ -3,7 +3,7 @@
 export ONLINE_JUDGE=True
 export PYTHONMALLOC=malloc_debug
 
-echo "Version 0.9"
+echo "Version 0.9.1"
 
 date
 
