@@ -7,3 +7,4 @@ unzip -q archive.zip
 
 ./check
 
+date
