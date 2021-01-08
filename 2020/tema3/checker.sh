@@ -13,3 +13,5 @@ unzip -q archive.zip
 date
 
 ./image_check tests.json "57-image_editor" 2>&1
+
+echo "TOTAL: 100"
