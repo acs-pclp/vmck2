@@ -2,7 +2,7 @@
 
 export ONLINE_JUDGE=True
 
-echo "Version 1.2.1 - Online"
+echo "Version 1.0 - RC Online"
 
 date
 
@@ -11,7 +11,3 @@ unzip -q archive.zip
 ./check
 
 date
-
-./image_check tests.json "57-image_editor" 2>&1
-
-echo "TOTAL: 100/100"
