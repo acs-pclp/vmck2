@@ -2,7 +2,7 @@
 
 export ONLINE_JUDGE=True
 
-echo "Version 1.4 - Valgrind Only - RC Online"
+echo "Version 1.5 - Valgrind Only - RC Online"
 
 date
 
@@ -13,6 +13,7 @@ unzip -q archive.zip
 unzip -q artifact.zip
 
 cat config.patch | patch -p0
+cat tests.json.patch | patch -p0
 
 mkdir bk
 mkdir bk/00-image_editor bk/01-image_editor bk/02-image_editor bk/03-image_editor
