@@ -2,7 +2,9 @@
 
 export ONLINE_JUDGE=True
 
-echo "Version 1.5 - Valgrind Only - RC Online"
+echo "Version 1.6 - Valgrind Only - RC Online"
+
+cat nume.txt
 
 date
 
