@@ -2,9 +2,7 @@
 
 export ONLINE_JUDGE=True
 
-echo "Version 1.6 - Valgrind Only - RC Online"
-
-cat nume.txt
+echo "Version 1.7 - Valgrind Only - RC Online"
 
 date
 
@@ -16,6 +14,8 @@ unzip -q artifact.zip
 
 cat config.patch | patch -p0
 cat tests.json.patch | patch -p0
+
+cat nume.txt
 
 mkdir bk
 mkdir bk/00-image_editor bk/01-image_editor bk/02-image_editor bk/03-image_editor
